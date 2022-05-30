@@ -1,0 +1,139 @@
+
+body {
+  background-image: url("../images/bg-main-desktop.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding-bottom: 5.6875rem;
+}
+
+/* ========== 
+     HEADER 
+   ========== */
+    
+header { 
+  margin-bottom: 18.5rem;
+  width: 77%;
+  margin: 0 auto 18.5rem auto;
+}
+
+.header-img {
+  width: 230px;
+  float: right;
+}
+
+header .logo { 
+  width: 9.125rem;
+  margin-top: 3.875rem;
+}
+
+
+header h1 {
+  font-size: clamp(var(--px-40), 7vw, var(--px-90));
+  line-height: clamp(var(--px-40), 7vw, var(--px-90));
+  margin-top: 4.1875rem;
+}
+
+header p {
+  width: 78%;
+  font-size: var(--px-20);
+  line-height: 34px;
+}
+
+/* ======== 
+     MAIN 
+   ======== */
+
+section.download {
+  position: relative;
+  height: 600px;
+  max-width: 1110px;
+  margin: 0 auto 12.625rem auto;
+  background-color: var(--clr-primary);
+  color: var(--clr-secondary);
+  border-radius: 12px;
+  z-index: -200;
+}
+
+section.download .shapes2 {
+  position: relative;
+  left: 21rem;
+  bottom: 3.5rem;
+  width: 28.578%;
+  max-width: 312px;
+  min-width: 280px;
+  z-index: -100;
+}
+
+section.download .phone-img {
+  position: absolute;
+  top: -220px;
+  left: var(--px-100);
+  width: 28.6%;
+  max-width: 312px;
+  min-width: 209px;
+}
+
+.download h2 {
+  font-size: clamp(2rem, 3vw, var(--px-40));
+  font-weight: 700;
+  margin: 0;
+}
+
+.download p {
+  font-size: clamp(var(--px-18), 2vw, var(--px-20));  
+  margin-bottom: var(--px-40);
+}
+
+.card-orange {
+  position: absolute;
+  right: var(--px-100);
+  bottom: -76px;
+  width: 45.65%;
+  max-width: 446px;
+  min-width: 375px;
+  padding: 3.625rem 3.6875rem 3rem 3.375rem;
+  background-color: var(--clr-accent);
+  border-radius: 12px;
+}
+
+.card-orange .price {
+  font-weight: 700;
+  font-size: var(--px-65);
+  margin-right: var(--px-16);
+}
+
+.card-orange .month { font-size: var(--px-20); }
+
+#btn-ios {
+  margin: 46px 0 16px;
+  background-color: var(--clr-primary);
+  color: var(--clr-secondary);
+}
+
+#btn-ios:hover {
+  background-color: var(--clr-ios-hover);
+  color: var(--clr-secondary);
+}
+
+#btn-android:hover {
+  background-color: var(--clr-android-hover);
+  color: var(--clr-primary);
+}
+
+/* ========== 
+     FOOTER
+   ========== */
+
+footer {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.contact-us { width: 310px; }
+
+footer span { font-weight: 700; }
+
+footer .fab { margin-right: var(--px-20);}
+
+

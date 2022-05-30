@@ -1,0 +1,66 @@
+
+@media screen and (max-width: 1050px) {
+
+  body {
+    background-image: url("../images/bg-main-tablet.png");
+    background-position: 77% -75%;
+  } 
+
+  header { margin-bottom: 11.9375; }
+
+  header h1 { width: 89%; }
+
+  section.download { width: 90%;}
+
+  section.download .shapes2 {
+    left: 15rem;
+    bottom: 3.5rem;
+  }
+  
+  section.download .phone-img {
+    top: -110px;
+    left: var(--px-70);
+  }
+
+  .card-orange {
+    right: var(--px-60);
+    bottom: -76px;
+    padding: 2rem 2rem 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+  body {
+    background-image: url("../images/bg-main-mobile.png");
+    background-position: -5% -32%;
+  }
+
+  .header-img { display: none;}
+
+  header p { width: 100%;}
+
+  section.download {
+    width: 100%; 
+    margin-bottom: 360px;
+}
+
+  .card-orange {
+    width: 100%;
+    max-width: initial;
+    right: 0;
+    bottom: -317px;
+  }
+
+  section.download .shapes2 {
+    bottom: 0;
+    left: calc(40% - var(--px-90));
+  }
+  
+  section.download .phone-img {
+    top: -110px;
+    left: calc(40% - var(--px-60));
+  }
+
+  footer { gap: 20px; }
+}

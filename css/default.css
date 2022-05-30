@@ -1,0 +1,41 @@
+:root {
+  --clr-primary: #191826;
+  --clr-secondary: #fcfaf9;
+  --clr-accent: #fa7453;
+  --clr-ios-hover: #66e2dc;
+  --clr-android-hover: #ffb964;
+
+  --px-16: 1rem;
+  --px-18: 1.125rem;
+  --px-20: 1.25rem;
+  --px-40: 2.5rem;
+  --px-45: 2.8125rem;
+  --px-60: 3.75rem;
+  --px-65: 4.0625rem;
+  --px-70: 4.375rem;
+  --px-90: 5.625rem;
+  --px-100: 6.25rem;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  color: var(--clr-primary);
+}
+
+h1,
+h2 { font-weight: 700; }
+
+button {
+  display: block;
+  width: 100%;
+  padding: 1em 0;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+}
